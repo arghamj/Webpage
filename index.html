@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argha Majumdar - Portfolio</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1c6483, #feb47b);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1em 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Header */
+        header {
+            padding: 3em 0;
+            text-align: center;
+            background: linear-gradient(135deg, #0a195e, #2b5876);
+            color: #fff;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.3em;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Sections */
+        .section {
+            margin: 2em 0;
+            padding: 2em;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Section Titles */
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            position: relative;
+            color: #2c3e50;
+        }
+        .section h2::after {
+            content: "";
+            width: 80px;
+            height: 4px;
+            background: #ff7e5f;
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+        }
+
+        /* List Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+            padding-left: 1.2em;
+            position: relative;
+            color: #333;
+        }
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ff7e5f;
+            font-size: 1.5em;
+        }
+
+        /* Contact Info */
+        .contact-info p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .contact-info a {
+            color: #ff7e5f;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #d09797;
+            color: #f1f1f1;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 0.9em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Educational Background</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#projects">Projects</a>
+        <a href="#membership">Membership</a>
+        <a href="#research">Research</a>
+        <a href="#events">Events</a>
+        <a href="#presentation">Presentation</a>
+        <a href="#courses">Courses</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Argha Majumdar</h1>
+        <p>Future AI Engineer | Tech Enthusiast</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Me Section -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Argha Majumdar, a first-year B.Tech student specializing in Artificial Intelligence. I am passionate about exploring technology and eager to make an impact through innovative AI solutions.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <h2>Educational Background</h2>
+            <ul>
+                <li>In 2021: Passed the Secondary Examination with a very good marks.</li>
+                <li>In 2023: Passed Higher Secondary Examination with good and suitable marks.</li>
+                <li>Now-2028: Currently pursuing B.Tech in CSE (AI) at UEM Kolkata.</li>
+            </ul>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+            <p>Currently exploring the field of AI, seeking hands-on experience through projects and internships.</p>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="section" id="publications">
+            <h2>Paper/Patent Publications</h2>
+            <p>Pending publications in Artificial Intelligence and Machine Learning.</p>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="section" id="awards">
+            <h2>Awards and Achievements</h2>
+            <p>Achievements in academic and technical events will be updated soon.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <p>Currently working on projects in Artificial Intelligence.</p>
+        </section>
+
+        <!-- Membership Section -->
+        <section class="section" id="membership">
+            <h2>Membership</h2>
+            <p>Not yet but will be soon.</p>
+        </section>
+
+        <!-- Research Section -->
+        <section class="section" id="research">
+            <h2>Research Thrust Area</h2>
+            <p>Focusing on AI and its applications in real-world solutions.</p>
+        </section>
+
+        <!-- Events Section -->
+        <section class="section" id="events">
+            <h2>List of Events (Organized/Attended)</h2>
+            <p>Attended:  CEELLCS, a Inaugural Ceremony on 12th sept, 2024 at UEMK.</p>
+        </section>
+
+        <!-- Presentation Section -->
+        <section class="section" id="presentation">
+            <h2>Presentation</h2>
+            <p>Presented research on AI developments in various academic events.</p>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="section" id="courses">
+            <h2>Courses Completed (NPTEL/COURSERA/LinkedIn Learning)</h2>
+            <p>NPTEL: Developing Soft Skills and Personality</p>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:argha2005.murarai@gmail.com">argha2005.murarai@gmail.com</a></p>
+                <p><strong>Phone:</strong> 7001726165</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Argha Majumdar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
